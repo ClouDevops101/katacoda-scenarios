@@ -7,11 +7,14 @@ Le conteneur Docker lance un processus appelé redis-server. Depuis l'hôte, nou
 `ps aux | grep redis-server`{{execute}}
 
 
-Docker peut nous aider à identifier les informations sur le processus, y compris le PID (Process ID) et PPID (Parent Process ID) via docker top db
+Docker peut nous aider à identifier les informations sur le processus, y compris le PID (Process ID) et PPID (Parent Process ID) via `docker top db`{{execute}}
 
 
 Qui est le PPID? Utilisé `ps aux | grep <ppid> `{{execute}}to find the parent process. Likely to be 
 pour trouver le processus parent. Probablement être *Containerd*.
+
+install pstree on ubuntu debain
+`apt-get install psmisc`{{execute}}
 
 
 La commande pstree répertorie tous les sous-processus. Voir l'arborescence des processus Docker à l'aide de `pstree -c -p -A $(pgrep dockerd)`{{execute}}
