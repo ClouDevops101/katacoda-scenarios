@@ -13,3 +13,6 @@ Run an nginx container and map port 80 on the container to port 8080 on your hos
 `docker container run -d -p 8080:80 nginx`{{execute}}
 
  Visit : https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/
+
+
+`echo '<html><head><title>Welcome '"$name"'!</title></head><body><h1>Welcome '"$name"'!</h1></body></html>' > /usr/share/nginx/html/index.html `{{execute}}
