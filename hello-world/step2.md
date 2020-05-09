@@ -19,4 +19,8 @@ Maintenant lancer le même container cette fois-ci en mode interactif :
 
 `docker run --name ubuntu_bash --rm -i -t -p 8080:80 nginx bash`{{execute}}
 
+Taper manuellement cette commande /!\:
+
+`name="<prénom>"`
+
 `echo '<html><head><title>Welcome '"$name"'!</title></head><body><h1>Welcome '"$name"'!</h1></body></html>' > /usr/share/nginx/html/index.html `{{execute}}
