@@ -21,10 +21,9 @@ In this example, our base image is the Alpine version of Nginx. This provides th
 Task
 Create your Dockerfile for building your image by copying the contents below into the editor.
 
-`vim Dockerfile`{{execute}}
 
-```Copy to EditorFROM nginx:alpine
-COPY . /usr/share/nginx/html```
+`Copy to EditorFROM nginx:alpine
+COPY . /usr/share/nginx/html`{{copy}}
 The first line defines our base image. The second line copies the content of the current directory into a particular location inside the container.
 
 
