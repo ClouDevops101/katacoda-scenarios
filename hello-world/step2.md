@@ -15,4 +15,8 @@ Run an nginx container and map port 80 on the container to port 8080 on your hos
  Visit : https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/
 
 
+Maintenant lancer le même container cette fois-ci en mode interactif :
+
+`docker run --name ubuntu_bash --rm -i -t -p 8080:80 nginx bash`{{execute}}
+
 `echo '<html><head><title>Welcome '"$name"'!</title></head><body><h1>Welcome '"$name"'!</h1></body></html>' > /usr/share/nginx/html/index.html `{{execute}}
