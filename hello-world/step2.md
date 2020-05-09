@@ -21,6 +21,18 @@ Maintenant lancer le même container cette fois-ci en mode interactif :
 
 Taper manuellement cette commande /!\:
 
+Modifier la page principale d'nginx : 
+
+on vas chercher le ficher nginx 
+
+`find / -type f -iname "index.html"`{{execute}}
+
+Copier cette commande et remplacer <prénom> par votre prénom 
+
 `name="<prénom>"`
 
-`echo '<html><head><title>Welcome '"$name"'!</title></head><body><h1>Welcome '"$name"'!</h1></body></html>' > /usr/share/nginx/html/index.html `{{execute}}
+`echo '<html><head><title>Welcome '"$name"'!</title></head><body><h1>Welcome '"$name" to my class'!</h1></body></html>' > /usr/share/nginx/html/index.html`{{execute}}
+
+
+
+'nginx'
