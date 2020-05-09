@@ -31,3 +31,16 @@ Extraire une couche vous montrera quels fichiers cette couche fournit.
 
 `tar -xvf da2a73e79c2ccb87834d7ce3e43d274a750177fe6527ea3f8492d08d3bb0123c/layer.tar`{{execute}}
 
+
+## Création d'une image vide
+
+Comme une image n'est qu'un fichier tar, une image vide peut être créée à l'aide de la commande ci-dessous.
+
+`tar cv --files-from /dev/null | docker import - empty`{{execute}}
+
+En important le tar, les métadonnées supplémentaires seront créées.
+
+`docker images`{{execute}}
+
+Cependant, comme le conteneur ne contient rien, il ne peut pas démarrer de processus.
+
