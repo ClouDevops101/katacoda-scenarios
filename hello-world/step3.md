@@ -19,7 +19,7 @@ La commande pstree répertorie tous les sous-processus. Voir l'arborescence des 
 
 Comme vous pouvez le voir, du point de vue de Linux, ce sont des processus standard et ont les mêmes propriétés que les autres processus de notre système.
 
-#Process Directory
+## Process Directory
 Linux n'est qu'une série de fichiers et de contenus magiques, ce qui le rend amusant à explorer et à naviguer pour voir ce qui se passe sous les couvertures, et dans certains cas, changer le contenu pour voir les résultats.
 
 La configuration de chaque processus est définie dans le répertoire / proc. Si vous connaissez l'ID de processus, vous pouvez identifier le répertoire de configuration.
