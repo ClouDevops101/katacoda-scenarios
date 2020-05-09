@@ -1,35 +1,33 @@
 # Container Image
+Une image conteneur est un fichier tar contenant des fichiers tar. Chacun des fichiers tar est une couche. Une fois que tous les fichiers tar ont été extraits au même emplacement, vous disposez du système de fichiers du conteneur.
 
-This is an _example_ of creating a scenario and running a **command**
 
-`echo 'Hello World'`{{execute}}
-
-# Container Image
-A container image is a tar file containing tar files. Each of the tar file is a layer. Once all tar files have been extract into the same location then you have the container's filesystem.
-
-This can be explored via Docker. Pull the layers onto your local system.
+Cela peut être exploré via Docker. Tirez les couches sur votre système local.
 
 `docker pull redis:3.2.11-alpine`{{execute}}
 
-Export the image into the raw tar format.
+
+Exportez l'image au format tar brut.
 
 `docker save redis:3.2.11-alpine > redis.tar`{{execute}}
 
-Extract to the disk
+
+Extraire sur le disque
 
 `tar -xvf redis.tar`{{execute}}
 
-All of the layer tar files are now viewable.
+
+Tous les fichiers tar de couche sont désormais visibles.
 
 `ls`{{execute}}
 
-The image also includes metadata about the image, such as version information and tag names.
+L'image comprend également des métadonnées sur l'image, telles que les informations de version et le nom de la balises.
 
 `cat repositories`{{execute}}
 
 `cat manifest.json`{{execute}}
 
-Extracting a layer will show you which files that layer provides.
+Extraire une couche vous montrera quels fichiers cette couche fournit.
 
 `tar -xvf da2a73e79c2ccb87834d7ce3e43d274a750177fe6527ea3f8492d08d3bb0123c/layer.tar`{{execute}}
 
