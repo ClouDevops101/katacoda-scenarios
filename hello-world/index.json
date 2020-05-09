@@ -13,6 +13,9 @@
     },{
       "title": "Step 3 - Docker process",
       "text": "step3.md"
+    },{
+      "title": "Step 4 - Docker image",
+      "text": "step4.md"
     }],
     "intro": {
       "text": "intro.md",
