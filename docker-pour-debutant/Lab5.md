@@ -1,3 +1,5 @@
+# Lab #5 - Docker Networking
+
 Cherche l'adresse ip du système Linux hôte :
 
 récuperer l'adresse ip :
@@ -8,7 +10,7 @@ Lancer une image docker ubuntu en mode interactif :
 
 `docker run -it ubuntu bash'`{{execute}}
 
-Votre prompt shell change est vous êtes maintenant en mode :
+Votre prompt shell change et vous êtes maintenant en mode :
 root@XXXXXX:/#
 
 Lancer une misé à jour de package au sein du container docker :

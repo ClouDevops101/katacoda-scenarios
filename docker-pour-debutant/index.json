@@ -7,32 +7,36 @@
     "steps": [
       {
         "title": "Lab #1 Hello Docker",
-        "text": "step1.md"
+        "text": "Lab1.md"
       },
       {
         "title": "Lab #2 - Deploy your first Webserver",
-        "text": "step2.md"
+        "text": "Lab2.md"
       },
       {
-        "title": "Lab #3 - Docker process",
-        "text": "step3.md"
+        "title": "Lab #3 - Lancer votre premier webserveur sur docker",
+        "text": "Lab3.md"
       },
       {
         "title": "Lab #4 - Docker image",
-        "text": "step4.md"
+        "text": "Lab4.md"
       },
       {
-        "title": "Lab #5 - Docker docker",
-        "text": "step5.md"
+        "title": "Lab #5 - Docker Networking",
+        "text": "Lab5.md"
       },
       {
-        "title": "Lab #6 - Docker Networking",
-        "text": "step6.md"
+        "title": "Lab #6 - Dockerfile",
+        "text": "Lab6.md"
+      },
+      {
+        "title": "Lab #6 - Docker Volumes",
+        "text": "Lab7.md"
       }
     ],
     "intro": {
       "text": "intro.md",
-      "credits": ""
+      "credits": "Abdelilah HEDDAR"
     },
     "finish": {
       "text": "finish.md"
