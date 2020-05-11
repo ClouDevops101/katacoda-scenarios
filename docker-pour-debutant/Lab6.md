@@ -47,6 +47,6 @@ Une fois démarré, vous pourrez accéder aux résultats du port 80 via `curl do
 
 Pour afficher les demandes dans le navigateur, utilisez les liens suivants
 
-visitez la page à nouveau: https: // [[HOST_SUBDOMAIN]] -8080- [[KATACODA_HOST]] .environments.katacoda.com /
+visitez la page à nouveau: https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/
 
 Vous avez maintenant un site Web HTML statique desservi par Nginx.
