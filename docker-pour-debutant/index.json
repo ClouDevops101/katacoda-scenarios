@@ -2,7 +2,7 @@
   "title": "Docker pour débutant",
   "description": "Initiation à l'utilisation de docker",
   "difficulty": "beginner",
-  "time": "2 minutes",
+  "time": "20 minutes",
   "details": {
     "steps": [
       {

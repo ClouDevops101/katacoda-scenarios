@@ -4,6 +4,8 @@ Une image conteneur est un fichier tar contenant des fichiers tar. Chacun des fi
 
 Cela peut être exploré via Docker. Tirez les couches sur votre système local.
 
+### Tâche
+
 `docker pull redis:3.2.11-alpine`{{execute}}
 
 Exportez l'image au format tar brut.

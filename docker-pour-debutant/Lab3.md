@@ -2,6 +2,8 @@
 
 Maintenant lancer le même container cette fois-ci en mode interactif :
 
+### Tâche
+
 `docker run --name ubuntu_bash --rm -i -t -p 8080:80 nginx bash`{{execute}}
 
 visitez la page : https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/

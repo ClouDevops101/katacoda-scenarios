@@ -4,6 +4,8 @@ Cherche l'adresse ip du système Linux hôte :
 
 récuperer l'adresse ip :
 
+### Tâche
+
 `ip address | grep -v "127.0.0.1" | grep "inet"|awk '{print $2}'`{{execute}}
 
 Lancer une image docker ubuntu en mode interactif :

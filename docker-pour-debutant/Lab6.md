@@ -7,7 +7,8 @@ Cette image de base est définie comme une instruction dans le Dockerfile. Les i
 
 Dans cet exemple, notre image de base est la version alpine de Nginx. Cela fournit le serveur Web configuré sur la distribution Linux Alpine.
 
-Tâche
+### Tâche
+
 Créez votre Dockerfile pour construire votre image en copiant le contenu ci-dessous dans l'éditeur.
 
 `touch Dockerfile index.html`{{execute}}
