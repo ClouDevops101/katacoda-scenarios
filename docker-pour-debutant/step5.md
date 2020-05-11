@@ -26,8 +26,9 @@ Create your Dockerfile for building your image by copying the contents below int
 Ediiter le dockerfile 
 Il faut selectioner le fichier dans l'éditeur et appuyer sur le button Copy to Editor
 
-`Copy to EditorFROM nginx:alpine
-COPY . /usr/share/nginx/html`{{copy}}
+`FROM nginx:alpine
+COPY . /usr/share/nginx/html
+`{{copy}}
 
 
 

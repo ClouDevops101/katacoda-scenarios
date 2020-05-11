@@ -9,5 +9,5 @@ Il s'agit d'un _exemple_ de création d'un scénario et d'exécution d'un **comm
 
 Copier / coller un text 
 
-`name="<prénom>"`{{copy}}
+`name="first name"`{{copy}}
 

@@ -30,7 +30,7 @@ Le conteneur que vous avez lancer tout à leur est toujour entrain de trourné e
 
 et pour le remercier 
 
-`docker stop $(ps docker -q -a)`{{execute}}
+`docker stop $(docker ps -q -a)`{{execute}}
 
 Modifier la page principale du serveur web (nginx) : 
 
@@ -38,12 +38,17 @@ on vas chercher le ficher nginx
 
 `find / -type f -iname "index.html"`{{execute}}
 
-Copier cette commande et remplacer <prénom> par votre prénom 
-
-`name="<prénom>"`{{copy}}
 
 `echo '<html><head><title>Welcome '"$name"'!</title></head><body><h1>Welcome '"$name" to my class'!</h1></body></html>' > /usr/share/nginx/html/index.html`{{execute}}
 
 
 
 `nginx`{{execute}}
+
+arrêtez le processur nginx en appuyant sur ces deux touches simultanement 
+
+Ctrl + c
+
+sortez du bash du conteneur en appuyant sur ces deux touches simultanement 
+
+Ctrl + d
