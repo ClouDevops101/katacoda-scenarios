@@ -4,10 +4,28 @@
   "difficulty": "beginner",
   "time": "2 minutes",
   "details": {
-    "steps": [{
-      "title": "Step 1 - Run Command",
-      "text": "step1.md"
-    }],
+    "steps": [
+      {
+        "title": " Lab #1 - Hello from the sea",
+        "text": "Lab1.md"
+      },
+      {
+        "title": " Lab #2 - Creation d'un déployement",
+        "text": "Lab2.md"
+      },
+      {
+        "title": " Lab #3 - Exposer un service",
+        "text": "Lab3.md"
+      },
+      {
+        "title": " Lab #4 - Service advanced ",
+        "text": "Lab4.md"
+      },
+      {
+        "title": " Lab #5 - Scale Containers ",
+        "text": "Lab5.md"
+      }
+    ],
     "intro": {
       "text": "intro.md",
       "credits": ""
