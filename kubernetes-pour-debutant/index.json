@@ -24,6 +24,10 @@
       {
         "title": " Lab #5 - Scale Containers ",
         "text": "Lab5.md"
+      },
+      {
+        "title": " Lab #6 - Déployment avec des fichier Yaml",
+        "text": "Lab6.md"
       }
     ],
     "intro": {
