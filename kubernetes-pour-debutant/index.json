@@ -32,14 +32,14 @@
     ],
     "intro": {
       "text": "intro.md",
-      "credits": ""
+      "credits": "Abdelilah HEDDAR"
     },
     "finish": {
       "text": "finish.md"
     }
   },
   "assets": {
-    "master": [{ "file": "nginx-app.yaml", "target": "/root/", "chmod": "+wr" }]
+    "master": [{ "file": "nginx-app.yaml", "target": "/tmp/", "chmod": "+wr" }]
   },
   "environment": {
     "uilayout": "editor-terminal",
