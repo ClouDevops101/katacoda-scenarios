@@ -39,7 +39,7 @@
     }
   },
   "assets": {
-    "master": [{ "file": "nginx-app.yaml", "target": "/root", "chmod": "+wr" }]
+    "master": [{ "file": "nginx-app.yaml", "target": "/root/", "chmod": "+wr" }]
   },
   "environment": {
     "uilayout": "editor-terminal",
