@@ -1,38 +1,43 @@
-# Lab #2 - Process
+# Lab #4 - Docker image
 
-### Lancer un serveur web avec l'image Nginx
+Une image conteneur est un fichier tar contenant des fichiers tar. Chacun des fichiers tar est une couche. Une fois que tous les fichiers tar ont été extraits au même emplacement, vous disposez du système de fichiers du conteneur.
 
-Run an nginx container and map port 80 on the container to port 8080 on your host. Map port 443 on the container to port 4443 on the host
-`docker container run -d -p 8080:80 nginx`{{execute}}
-
-Docker ne trouve pas l'mage en local, puis décide d'aller la chercher sur docker hub, donc il réalise un docker pull implécite :
-
-Visit : https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/
-
-Maintenant lancer le même container cette fois-ci en mode interactif :
-
-`docker run --name ubuntu_bash --rm -i -t -p 8080:80 nginx bash`{{execute}}
-
-### ça ne marche pas !
-
-Lisez le message :
-
-`docker: Error response from daemon: driver failed programming external connectivity on endpoint ubuntu_bash (86517137dbfe4675e648a330cffca08abe829ada9b045a6a868c8c04869851ff): Bind for 0.0.0.0:8080 failed:*port is already allocated*.`
-
-Le conteneur que vous avez lancer tout à leur est toujour entrain de trourné en tâche de fond pour le voir :
+Cela peut être exploré via Docker. Tirez les couches sur votre système local.
 
 ### Tâche
 
-`docker ps`{{execute}}
+`docker pull redis:3.2.11-alpine`{{execute}}
 
-et pour le remercier
+Exportez l'image au format tar brut.
 
-`docker stop $(docker ps -q)`{{execute}}
+`docker save redis:3.2.11-alpine > redis.tar`{{execute}}
 
-Lancer à nouveau la commande : `docker ps`{{execute}} le container est-il toujours présent sur la table des processus ?
+Extraire sur le disque
 
-Vous pouvez aussi faire presque la même chose avec la commande :
+`tar -xvf redis.tar`{{execute}}
 
-`docker kill $(docker ps -q -a)`{{execute}}
+Tous les fichiers tar de couche sont désormais visibles.
 
-Modifier la page principale du serveur web (nginx) :
+`ls`{{execute}}
+
+L'image comprend également des métadonnées sur l'image, telles que les informations de version et le nom de la balises.
+
+`cat repositories`{{execute}}
+
+`cat manifest.json`{{execute}}
+
+Extraire une couche vous montrera quels fichiers cette couche fournit.
+
+`tar -xvf da2a73e79c2ccb87834d7ce3e43d274a750177fe6527ea3f8492d08d3bb0123c/layer.tar`{{execute}}
+
+## Création d'une image vide
+
+Comme une image n'est qu'un fichier tar, une image vide peut être créée à l'aide de la commande ci-dessous.
+
+`tar cv --files-from /dev/null | docker import - empty`{{execute}}
+
+En important le tar, les métadonnées supplémentaires seront créées.
+
+`docker images`{{execute}}
+
+Cependant, comme le conteneur ne contient rien, il ne peut pas démarrer de processus.
