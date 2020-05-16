@@ -1,7 +1,5 @@
 # Lab #1 - Hello Docker
 
-Il s'agit d'un _exemple_ de création d'un scénario d'exécution d'une **commande**
-
 ## Executer une commande en un click en appuyant sur le symbole de la touche enter
 
 `echo 'Hello World'`{{execute}}
