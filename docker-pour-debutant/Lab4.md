@@ -5,9 +5,13 @@
 Run an nginx container and map port 80 on the container to port 8080 on your host. Map port 443 on the container to port 4443 on the host
 `docker container run -d -p 8080:80 nginx`{{execute}}
 
-Docker ne trouve pas l'mage en local, puis décide d'aller la chercher sur docker hub, donc il réalise un docker pull implécite :
+Docker ne trouve pas l'image en local, puis décide d'aller la chercher sur docker hub, donc il réalise un docker pull implécite :
 
 Visit : https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/
+
+Avec cette commande vous etes capable d'auditer les processus qui tournent au sein du container docker
+
+`docker top ubuntu_bash`{{execute}}
 
 Maintenant lancer le même container cette fois-ci en mode interactif :
 
