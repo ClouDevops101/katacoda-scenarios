@@ -4,6 +4,16 @@ Une image conteneur est un fichier tar contenant des fichiers tar. Chacun des fi
 
 Cela peut être exploré via Docker. Tirez les couches sur votre système local.
 
+## Avant de commencer
+
+Regarder les images existantes en local sur votre machine :
+
+`docker images`{{execute}}
+
+Une idée pourquoi docker vous affiche :
+
+`3.2.11-alpine: Pulling from library/redis ff3a5c916c92: Already exists`
+
 ### Tâche
 
 `docker pull redis:3.2.11-alpine`{{execute}}

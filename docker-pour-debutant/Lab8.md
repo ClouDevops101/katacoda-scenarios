@@ -20,9 +20,13 @@ Il y a un problème dans ce code, _pouvez-vous l'identifier ?_
 
 Fait les corrections nécessaires dans le fichier en question
 
-## Connecter vous sur docker hub en ligne de commande
+## Connectez vous sur docker hub en ligne de commande
 
 `docker login`{{execute}}
+
+L'invite de commande vous demandera de saisir un Username password :
+
+`Login with your Docker ID to push and pull images from Docker Hub. If you don't have a Docker ID, head over to https://hub.docker.com to create one. Username: aheddar Password: Login Succeeded`
 
 ## Créer un repository sur docker hub
 

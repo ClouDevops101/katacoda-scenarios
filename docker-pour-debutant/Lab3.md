@@ -12,7 +12,11 @@ on vas chercher le ficher nginx
 
 `find / -type f -iname "index.html"`{{execute}}
 
+Et on va le personaliser la page :
+
 `echo '<html><head><title>Welcome '"$name"'!</title></head><body><h1>Welcome '"$name" to my class'!</h1></body></html>' > /usr/share/nginx/html/index.html`{{execute}}
+
+Lancer le serveur web nginx
 
 `nginx`{{execute}}
 
