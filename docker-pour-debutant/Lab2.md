@@ -1,4 +1,4 @@
-# Lab #4 - Docker image
+# Lab #2 - Docker image
 
 Une image conteneur est un fichier tar contenant des fichiers tar. Chacun des fichiers tar est une couche. Une fois que tous les fichiers tar ont été extraits au même emplacement, vous disposez du système de fichiers du conteneur.
 

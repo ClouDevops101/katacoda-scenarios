@@ -1,6 +1,6 @@
 # Lab #1 - Hello Docker
 
-## Executer une commande en un click en appuyant sur le symbole de la touche enter
+## Executez une commande en un click en appuyant sur le symbole de la touche enter
 
 `echo 'Hello World'`{{execute}}
 

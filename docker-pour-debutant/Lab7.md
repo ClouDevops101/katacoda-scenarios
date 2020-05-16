@@ -1,4 +1,4 @@
-# Lab #6 - Docker Volumes
+# Lab #7 - Docker Volumes
 
 https://katacoda.com/courses/docker/persisting-data-using-volumes
 

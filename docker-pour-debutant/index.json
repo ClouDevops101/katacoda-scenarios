@@ -32,6 +32,10 @@
       {
         "title": "Lab #7 - Docker Volumes",
         "text": "Lab7.md"
+      },
+      {
+        "title": "Lab #8 - Docker Hub",
+        "text": "Lab8.md"
       }
     ],
     "intro": {
