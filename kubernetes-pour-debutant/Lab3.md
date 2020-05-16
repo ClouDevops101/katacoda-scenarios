@@ -11,4 +11,10 @@ Utilisez la commande suivante pour exposer le port de conteneur 80 sur la liaiso
 
 Vous pourrez ensuite envoyer une requête ping à l'hôte et voir le résultat du service HTTP.
 
-`curl http://172.17.0.54:8000`{{execute}}
+Récuper l'@IP du cluster _http_ avec la commande :
+
+`kubectl describe svc http | egrep '^IP'`{{execute}}
+
+Remplacer l'ip dans la commande suivante par l'@IP récupéré
+
+`curl http://10.97.95.X:8000`{{execute}}

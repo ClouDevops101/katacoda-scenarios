@@ -7,10 +7,6 @@ Utilisez la commande command pour créer un deuxième service http exposé sur l
 
 `kubectl run httpexposed --image=katacoda/docker-http-server:latest --replicas=1 --port=80 --hostport=8001`{{execute}}
 
-Vous devriez pouvoir y accéder en utilisant
-
-`curl http://172.17.0.54:8001`{{execute}}
-
 Sous les couvertures, cela expose le pod via Docker Port Mapping. Par conséquent, vous ne verrez pas le service répertorié à l'aide de
 
 `kubectl get svc`{{execute}}
