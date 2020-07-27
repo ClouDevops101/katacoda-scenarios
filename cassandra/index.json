@@ -42,10 +42,10 @@
     "master": [{ "file": "nginx-app.yaml", "target": "/tmp/", "chmod": "+wr" }]
   },
   "environment": {
-    "uilayout": "editor-terminal",
-    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
+    "hideintro": true,
+    "uilayout": "terminal-terminal"
   },
   "backend": {
-    "imageid": "kubernetes"
+    "imageid": "kubernetes-cluster-running:1.18"
   }
 }
