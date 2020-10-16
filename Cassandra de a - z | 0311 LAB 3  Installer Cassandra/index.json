@@ -1,6 +1,5 @@
 {
   "title": "Cassandra Lab Section 5 : Créer une Base de Donnée ",
-  "icon": "fa-docker",
   "description": "Faire une première connexion à Cassandra",
   "difficulty": "Débutant",
   "time": "2 minutes",

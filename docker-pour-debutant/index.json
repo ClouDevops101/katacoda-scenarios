@@ -1,5 +1,6 @@
 {
   "title": "Docker pour débutant",
+  "icon": "fa-docker",
   "description": "Initiation à l'utilisation de docker",
   "difficulty": "beginner",
   "time": "20 minutes",
