@@ -38,9 +38,10 @@
       "text": "finish.md"
     }
   },
+  "files": [],
   "environment": {
     "hideintro": true,
-    "uilayout": "terminal-terminal"
+    "uilayout": "terminal"
   },
   "backend": {
     "imageid": "ubuntu:2004"
