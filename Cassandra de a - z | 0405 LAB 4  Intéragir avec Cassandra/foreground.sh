@@ -1,4 +1,4 @@
-apt install openjdk-8-jre-headless -y
+#apt install openjdk-8-jre-headless -y
 JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 wget https://downloads.apache.org/cassandra/4.0-beta2/apache-cassandra-4.0-beta2-bin.tar.gz 
 tar -xzf apache-cassandra-4.0-beta2-bin.tar.gz 
