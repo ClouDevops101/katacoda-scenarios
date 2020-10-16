@@ -6,7 +6,7 @@
   "details": {
     "steps": [
       {
-        "title": " Lab #1 - Hello from the sea",
+        "title": " Lab #1 Installation de Cassandra",
         "text": "Lab1.md"
       },
       {
