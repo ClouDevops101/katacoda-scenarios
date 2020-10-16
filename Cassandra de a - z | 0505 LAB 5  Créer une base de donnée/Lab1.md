@@ -4,7 +4,7 @@
 
 Installer Java
 
-`apt install gcj-4.8-jre-headless openjdk-8-jre-headless -y`{{execute}}
+`apt install openjdk-8-jre-headless -y`{{execute}}
 
 hum ! vous avez une erreur du type
 

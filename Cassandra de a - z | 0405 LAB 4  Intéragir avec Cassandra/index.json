@@ -3,6 +3,7 @@
   "description": "Initiation à l'installation de Cassandra",
   "difficulty": "Débutant",
   "time": "2 minutes",
+  "courseData": "background.sh",
   "details": {
     "steps": [
       {
