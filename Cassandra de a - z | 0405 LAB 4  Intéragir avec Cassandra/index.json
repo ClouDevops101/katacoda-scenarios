@@ -7,7 +7,9 @@
     "steps": [
       {
         "title": " Lab #1 Installation de Cassandra",
-        "text": "Lab1.md"
+        "text": "Lab1.md",
+        "courseData": "background.sh",
+        "code": "foreground.sh"
       },
       {
         "title": " Lab #2 - Creation d'un déployement",
