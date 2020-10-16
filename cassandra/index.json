@@ -1,6 +1,6 @@
 {
-  "title": "Installing Cassandra on Ubuntu 20.04 Instance",
-  "description": "General purpose environment",
+  "title": "Cassandra Lab Section 3 : Installer Cassandra ",
+  "description": "Initiation à l'installation de Cassandra",
   "difficulty": "Débutant",
   "time": "2 minutes",
   "details": {
