@@ -1,8 +1,6 @@
 {
-  "title": "Cassandra courses",
-  "description": "Initiation à l'utilisation de cassandra",
-  "difficulty": "beginner",
-  "time": "2 minutes",
+  "title": "Installing Cassandra on Ubuntu 20.04 Instance",
+  "description": "General purpose environment",
   "details": {
     "steps": [
       {
@@ -38,7 +36,6 @@
       "text": "finish.md"
     }
   },
-  "files": [],
   "environment": {
     "hideintro": true,
     "uilayout": "terminal"
