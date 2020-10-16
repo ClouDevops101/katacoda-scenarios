@@ -38,9 +38,6 @@
       "text": "finish.md"
     }
   },
-  "assets": {
-    "master": [{ "file": "nginx-app.yaml", "target": "/tmp/", "chmod": "+wr" }]
-  },
   "environment": {
     "hideintro": true,
     "uilayout": "terminal-terminal"
