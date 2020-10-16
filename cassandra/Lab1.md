@@ -2,9 +2,9 @@
 
 ## Étape 0 Combien de noeud actif
 
-Combien de noeud dispose notre cluster
+Installer Java
 
-`kubectl get nodes`{{execute}}
+`apt install gcj-4.8-jre-headless openjdk-8-jre-headless -y`{{execute}}
 
 hum ! vous avez une erreur du type
 
