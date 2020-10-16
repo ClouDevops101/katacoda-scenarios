@@ -4,4 +4,4 @@ JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 # tar -xzf apache-cassandra-4.0-beta2-bin.tar.gz 
 # mv apache-cassandra-4.0-beta2 /usr/share/cassandra 
 # rm apache-cassandra-4.0-beta2-bin.tar.gz 
-# PATH="$PATH:/usr/share/cassandra/bin:/usr/share/cassandra/tools/bin"
+# export PATH="$PATH:/usr/share/cassandra/bin:/usr/share/cassandra/tools/bin"

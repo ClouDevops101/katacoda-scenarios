@@ -1,5 +1,6 @@
 {
   "title": "Kubernetes pour débutant",
+  "icon": "fa-kubernetes",
   "description": "Initiation à l'utilisation de docker",
   "difficulty": "beginner",
   "time": "2 minutes",
