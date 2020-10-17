@@ -8,7 +8,6 @@
       {
         "title": " Lab #1 Installation de Cassandra",
         "text": "Lab1.md",
-        "courseData": "background.sh",
         "code": "foreground.sh"
       },
       {
@@ -50,4 +49,3 @@
     "imageid": "ubuntu:2004"
   }
 }
-
