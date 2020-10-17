@@ -7,8 +7,7 @@
     "steps": [
       {
         "title": " Lab #1 Installation de Cassandra",
-        "text": "Lab1.md",
-        "code": "foreground.sh"
+        "text": "Lab1.md"
       },
       {
         "title": " Lab #2 - Creation d'un déployement",
@@ -33,7 +32,6 @@
     ],
     "intro": {
       "text": "intro.md",
-      "courseData": "background.sh",
       "code": "foreground.sh",
       "credits": "Abdelilah HEDDAR"
     },
