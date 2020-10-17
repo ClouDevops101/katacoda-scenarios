@@ -1,4 +1,6 @@
 # Lab #2 - Docker image
+Vous pouvez suivre mes cours sur Udemy
+https://www.udemy.com/user/abdelilah-heddar/
 
 Une image conteneur est un fichier tar contenant des fichiers tar. Chacun des fichiers tar est une couche. Une fois que tous les fichiers tar ont été extraits au même emplacement, vous disposez du système de fichiers du conteneur.
 

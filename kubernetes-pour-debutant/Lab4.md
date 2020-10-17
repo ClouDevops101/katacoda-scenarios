@@ -1,4 +1,6 @@
 # Lab #4 - Service advanced
+Vous pouvez suivre mes cours sur Udemy
+https://www.udemy.com/user/abdelilah-heddar/
 
 Avec kubectl run, il est possible de créer le déploiement et de l'exposer comme une seule commande.
 

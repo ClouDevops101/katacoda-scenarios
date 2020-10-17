@@ -1,4 +1,6 @@
 # Lab #2 - Déployer un Pod
+Vous pouvez suivre mes cours sur Udemy
+https://www.udemy.com/user/abdelilah-heddar/
 
 La commande suivante lancera un déploiement appelé http qui lancera un conteneur basé sur Docker Image katacoda/docker-http-server:latest.
 

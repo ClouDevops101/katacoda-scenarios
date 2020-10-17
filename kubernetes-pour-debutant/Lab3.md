@@ -1,4 +1,6 @@
 # Lab #3 - Exposer un service
+Vous pouvez suivre mes cours sur Udemy
+https://www.udemy.com/user/abdelilah-heddar/
 
 Une fois le déploiement créé, nous pouvons utiliser kubectl pour créer un service qui expose les pods sur un port particulier.
 
