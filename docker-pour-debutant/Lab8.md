@@ -1,6 +1,6 @@
 # Lab #8 - Docker hub
 Vous pouvez suivre mes cours sur Udemy
-https://www.udemy.com/user/abdelilah-heddar/
+https://bit.ly/UdemyAH
 
 ## Création d'un répertoire
 

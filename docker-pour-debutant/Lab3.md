@@ -1,7 +1,7 @@
 # Lab #3 - Lancer votre premier webserveur sur docker
 
 Vous pouvez suivre mes cours sur Udemy
-https://www.udemy.com/user/abdelilah-heddar/
+https://bit.ly/UdemyAH
 
 Maintenant lancer le même container cette fois-ci en mode interactif :
 

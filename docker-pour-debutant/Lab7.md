@@ -1,6 +1,6 @@
 # Lab #7 - Docker Volumes
 Vous pouvez suivre mes cours sur Udemy
-https://www.udemy.com/user/abdelilah-heddar/
+https://bit.ly/UdemyAH
 
 https://katacoda.com/courses/docker/persisting-data-using-volumes
 

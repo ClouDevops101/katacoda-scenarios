@@ -1,7 +1,7 @@
 # Lab #1 - Hello Docker
 
 Vous pouvez suivre mes cours sur Udemy
-https://www.udemy.com/user/abdelilah-heddar/
+https://bit.ly/UdemyAH
 
 ## Executez une commande en un click en appuyant sur le symbole de la touche enter
 
