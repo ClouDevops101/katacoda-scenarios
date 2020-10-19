@@ -1,6 +1,6 @@
 # Lab #1 - Démarrer le cluster
 Vous pouvez suivre mes cours sur Udemy
-https://www.udemy.com/user/abdelilah-heddar/
+https://bit.ly/UdemyAH
 
 ## Étape 0 Combien de noeud actif
 

@@ -1,7 +1,7 @@
 # Lab #7 - Déployment avec des fichier Yaml
 
 Vous pouvez suivre mes cours sur Udemy
-https://www.udemy.com/user/abdelilah-heddar/
+https://bit.ly/UdemyAH
 
 De nombreuses applications nécessitent la création de plusieurs ressources, comme un déploiement et un service. La gestion de plusieurs ressources peut être simplifiée en les regroupant dans le même fichier (séparés par --- dans YAML). Par exemple:
 

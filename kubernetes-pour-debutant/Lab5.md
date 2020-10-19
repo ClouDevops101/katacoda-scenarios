@@ -1,6 +1,6 @@
-# Lab #5 - Scale Containers
+# Lab #5 - Scale Pods
 Vous pouvez suivre mes cours sur Udemy
-https://www.udemy.com/user/abdelilah-heddar/
+https://bit.ly/UdemyAH
 
 Avec notre déploiement en cours, nous pouvons désormais utiliser kubectl pour faire évoluer le nombre de répliques.
 
