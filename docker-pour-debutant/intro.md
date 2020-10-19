@@ -2,7 +2,7 @@ Bienvenue dans votre Lab docker
 
 Je vous propose de regarder le cours avant de plogner dans les labs :
 
-<iframe style="width: 700px;height: 400px;" src="https://www.youtube-nocookie.com/embed/C2InZvQc_zY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<center><iframe style="width: 700px;height: 400px;" src="https://www.youtube-nocookie.com/embed/C2InZvQc_zY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
 Abonnez vous à la chaine pour plus de formation:
 
