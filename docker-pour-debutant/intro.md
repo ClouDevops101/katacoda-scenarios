@@ -5,7 +5,7 @@ Je vous propose de regarder le cours avant de plogner dans les labs :
 <iframe width="720" height="720" src="https://www.youtube-nocookie.com/embed/C2InZvQc_zY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Abonnez vous à la chaine pour plus de formation:
-👇🏿 👇🏽 👇🏻
+👉🏽 👉 👉🏻
 
 http://bit.ly/YTAHE
 
