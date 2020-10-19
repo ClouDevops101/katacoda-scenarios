@@ -1,6 +1,6 @@
 Bienvenue dans votre Lab Kubernetes
 
-Je vous propose de regarder le cours avant de plogner dans les labs :
+Je vous propose de regarder le cours docker kubernetes, avant de plogner dans les labs :
 
 <center><iframe style="width: 700px;height: 400px;" src="https://www.youtube-nocookie.com/embed/C2InZvQc_zY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
