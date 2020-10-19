@@ -6,7 +6,7 @@ Je vous propose de regarder le cours avant de plogner dans les labs :
 
 Abonnez vous à la chaine pour plus de formation:
 
-https://www.youtube.com/channel/UCvRtSEVhbdjs47UJ6QpRGIA?view_as=subscriber
+http://bit.ly/YTAHE
 
 Ce scenario contient les lab de #1 à #6 :
 
