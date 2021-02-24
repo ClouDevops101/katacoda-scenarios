@@ -1,6 +1,6 @@
 # Lab #6 - Dockerfile
 Vous pouvez suivre mes cours sur Udemy
-https://bit.ly/UdemyAH
+https://cloudevops.io
 
 Step 1 - Créer un Dockerfile
 Les images Docker commencent à partir d'une image de base. L'image de base doit inclure les dépendances de plate-forme requises par votre application, par exemple, lorsque la JVM ou le CLR est installé.
