@@ -1,6 +1,6 @@
 # Lab #8 - Docker hub
 Vous pouvez suivre mes cours sur Udemy
-https://bit.ly/UdemyAH
+https://cloudevops.io
 
 ## Création d'un répertoire
 
