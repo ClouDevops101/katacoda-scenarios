@@ -6,7 +6,7 @@ Je vous propose de regarder le cours avant de plogner dans les labs :
 
 Abonnez vous à la chaine pour plus de formation:
 
-👉🏽 👉 👉🏻 https://bit.ly/YTAHE
+👉🏽 👉 👉🏻 https://yt.cloudevops.io
 
 Ce scenario contient les lab de #1 à #6 :
 
