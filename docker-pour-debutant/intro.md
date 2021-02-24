@@ -4,9 +4,9 @@ Je vous propose de regarder le cours avant de plogner dans les labs :
 
 <center><iframe style="width: 700px;height: 400px;" src="https://www.youtube-nocookie.com/embed/C2InZvQc_zY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
-Abonnez vous à la chaine pour plus de formation:
+Vous pouvez suivre mes cours sur Udemy https://cloudevops.io
 
-👉🏽 👉 👉🏻 https://yt.cloudevops.io
+
 
 Ce scenario contient les lab de #1 à #6 :
 
@@ -17,3 +17,9 @@ Ce scenario contient les lab de #1 à #6 :
 - Lab #5 - Docker Networking
 - Lab #6 - Dockerfile
 - Lab #7 - Docker Volumes
+
+
+Abonnez vous à la chaine pour plus de formation:
+
+👉🏽 👉 👉🏻 https://yt.cloudevops.io
+
